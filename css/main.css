@@ -7,8 +7,9 @@ body{
 header{
   width: 100%;
   height: 7vh;
-  background-color: rgba(0,0,0,0.25);
-  /*background-color: #DB8321;*/
+  /*background-color: rgba(0,0,0,0.25);*/
+  box-shadow: 5px 5px 5px #888888;
+  background-color: #F0CD4D;
   position: relative;
 }
 #headerText{
@@ -20,18 +21,34 @@ header{
 main{
   width: 100%;
   height: 86vh;
-  background-color: #FAFFE1;
+  background-color:#FAFFE1;
+  /*background-image: url('../images/Spoilers_Logo.jpeg');*/
+  /*background-size: contain;*/
+  /*background-repeat: no-repeat;*/
 }
+#leftDiv{
+  width: 50%;
+  height: 86vh;
+  background-color: white;
+}
+#logo{
+  width: 300px;
+  height: 300px;
+}
+
+
 
 
 footer{
   width: 100%;
   height: 7vh;
   background-color: #E6CA69;
+  font-style:italic;
+  font-weight: 800;
   clear: both;
 }
 #footerText{
-  color: white;
+  color: black;
   font-size: 14px;
   text-align: center;
   margin: 0;
