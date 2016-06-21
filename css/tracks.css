@@ -1,7 +1,8 @@
 *{
-  font-family: sans-serif;
+
 }
 body{
+  font-family: Trebuchet MS;
   margin: 0;
 }
 header{
@@ -12,11 +13,15 @@ header{
   position: relative;
 }
 #headerText{
+  font-family: Courier, monospace;
   font-size: 32px;
   color: #F8FED7;
   position: absolute;
   margin-left: 125px;
   margin-top: 1vh;
+}
+#headerText:hover{
+    color: rgba(0,0,0,0.25);
 }
 #headerLogo{
   width: 60px;
@@ -26,6 +31,7 @@ header{
   position: absolute;
 }
 #navMenu{
+  font-family: Courier, monospace;
   font-size: 20px;
   width: auto;
   margin-left: 35%;
@@ -84,6 +90,7 @@ footer{
   clear: both;
 }
 #footerText{
+  font-family: Trebuchet MS;
   color: black;
   font-size: 14px;
   text-align: center;

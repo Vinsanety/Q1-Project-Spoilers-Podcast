@@ -1,7 +1,8 @@
 *{
-  font-family: sans-serif;
+
 }
 body{
+  font-family: Trebuchet MS;
   margin: 0;
 }
 header{
@@ -12,11 +13,15 @@ header{
   position: relative;
 }
 #headerText{
+  font-family: Courier, monospace;
   font-size: 32px;
   color: #F8FED7;
   position: absolute;
   margin-left: 125px;
   margin-top: 1vh;
+}
+#headerText:hover{
+    color: rgba(0,0,0,0.25);
 }
 #headerLogo{
   width: 60px;
@@ -26,6 +31,7 @@ header{
   position: absolute;
 }
 #navMenu{
+  font-family: Courier, monospace;
   font-size: 20px;
   width: auto;
   margin-left: 35%;
@@ -70,15 +76,41 @@ div {
   flex-direction: column;
   align-items: center;
 }
-#picContainer{
+div img{
+  max-width: 55%;
+  height: 55%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-top: 1vh;
+}
+.name{
   text-align: center;
+  margin: 1vh 0 0 0;
+  font-weight: bolder;
+  color: #C58847;
+  font-size: 24px;
 }
-#groupPic{
+.bio{
+  text-align: center;
+  font-size: 12px;
+  margin: 1vh 10px 0 10px;
+  color: #C58847;
+}
+#upLeftDiv{
   width: 50%;
-  height: 50%;
+  height: 43vh;
 }
-
-
+#upRightDiv{
+  width: 50%;
+  height: 43vh;
+}
+#lowLeftDiv{
+  width: 50%;
+  height: 43vh;
+}
+#lowRightDiv{
+  width: 50%;
+  height: 43vh;
+}
 
 
 
@@ -91,6 +123,7 @@ footer{
   clear: both;
 }
 #footerText{
+  font-family: Trebuchet MS;
   color: black;
   font-size: 14px;
   text-align: center;
