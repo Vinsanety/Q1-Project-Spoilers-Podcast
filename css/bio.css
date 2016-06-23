@@ -74,41 +74,41 @@ div{
   float: left;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  /*align-items: center;*/
 }
 div img{
-  max-width: 70%;
+  max-width: 80%;
   height: auto;
   /*width: 55%;
   height: 55%;*/
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin-top: 1vh;
+  margin: 1vh 0 0 5%;
 }
 .name{
-  margin: 1vh 0 0 0;
+  margin: 1vh 0 0 5%;
   font-weight: bolder;
   color: #C58847;
   font-size: 24px;
 }
-.bio{
-  text-align: center;
-  font-size: 12px;
-  margin: 1vh 10px 0 10px;
-  color: #C58847;
-}
 .picDiv{
-  width: 25%;
+  width: 20%;
   height: 43vh;
   float: left;
   display: flex;
   flex-direction: column;
 }
 .textDiv{
-  width: 25%;
+  width: 30%;
   height: 43vh;
   /*float: right;*/
   display: flex;
   flex-direction: column;
+}
+.bio{
+  text-align: center;
+  font-size: 15px;
+  margin: 30% 5% 0 0;
+  color: #C58847;
 }
 /*#upLeftDiv{
   width: 50%;
