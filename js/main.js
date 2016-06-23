@@ -3,7 +3,7 @@ $.getJSON("https://api.soundcloud.com/playlists/235506624?client_id=f4f2237e0ee1
   //this part pushes the title of the latest track to the DOM
   $('#trackInfo').html('Our Latest Spoiled Film: ' + data.tracks[0].title)
   //this part pushes the embedded url to the iframe div / DOM
-  $('#iframe').attr('src', 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/'+data.tracks[1].id+ '&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true')
+  $('#iframe').attr('src', 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/'+data.tracks[0].id+ '&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true')
   console.log("Mydatais:",data);
   // data.preventDefault();
 })
