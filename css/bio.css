@@ -88,6 +88,7 @@ div img{
   margin: 1vh 0 0 5%;
   font-weight: bolder;
   color: #C58847;
+  text-shadow: 1px 1px black;
   font-size: 24px;
 }
 .picDiv{

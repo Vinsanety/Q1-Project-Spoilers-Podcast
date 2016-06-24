@@ -7,7 +7,7 @@ $.getJSON("https://api.soundcloud.com/playlists/235506624?client_id=f4f2237e0ee1
     if (index === (total-1)){
       var lastTrack = data[index]
       // console.log(lastTrack.title);
-      
+
       //this part pushes the title of the latest track to the DOM
       $('#trackInfo').html('Our Latest Spoiled Film: ' + lastTrack.title)
       //this part pushes the embedded url to the iframe div / DOM

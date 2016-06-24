@@ -89,7 +89,16 @@ div {
 #rightDiv{
   width:50%;
   height: 86vh;
-  flex-direction: row;
+  /*flex-direction: row;*/
+}
+#rightDiv h1{
+  margin: 2vh 0 0 0;
+  color: #C58847;
+  text-shadow: 2px 2px black;
+}
+img{
+  width: 33.3%;
+  height: auto;
 }
 /*#poster{
   width: 100%;
