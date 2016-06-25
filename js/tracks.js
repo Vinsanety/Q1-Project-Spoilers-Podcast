@@ -5,7 +5,7 @@ $.getJSON('https://api.soundcloud.com/playlists/235506624?client_id=f4f2237e0ee1
   var total = data.length;
   //Works the soundcloud api down to the splitting the title of our tracks to before the dash
   $(data).each(function(index) {
-    if(index === total-1){
+    if(index === total-2){
       var lastTrack = data[index];
       console.log(lastTrack);
       var title = lastTrack.title;
@@ -24,7 +24,7 @@ $.getJSON('https://api.soundcloud.com/playlists/235506624?client_id=f4f2237e0ee1
         //Appending Plot/Synopsis
         $('#plotOne').html('Plot: '+movie.Plot);
       })
-    }else if (index === total-2) {
+    }else if (index === total-3) {
       var lastTrack = data[index]
       var title = lastTrack.title
       var titleSplit = title.split(' -')
@@ -36,7 +36,7 @@ $.getJSON('https://api.soundcloud.com/playlists/235506624?client_id=f4f2237e0ee1
         $('#ratingsTwo').html('IMDB Rating: '+movie.imdbRating);
         $('#plotTwo').html('Plot: '+movie.Plot);
       })
-    }else if (index === total-3) {
+    }else if (index === total-4) {
       var lastTrack = data[index]
       var title = lastTrack.title
       var titleSplit = title.split(' -')
