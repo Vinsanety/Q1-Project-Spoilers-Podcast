@@ -74,7 +74,7 @@ div {
   margin: 0;
   width:100%;
   height: 53vh;
-  background-image: url('/images/you-talking-to-me.jpg');
+  background-image: url('../images/you-talking-to-me.jpg');
   opacity: .35;
   position: absolute;
   z-index: -1;
@@ -191,8 +191,6 @@ hr{
   width: 80%;
   margin: 1vh 18%;
 }
-
-
 footer{
   width: 100%;
   height: 7vh;

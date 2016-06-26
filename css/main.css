@@ -1,6 +1,3 @@
-*{
-
-}
 body{
   font-family: Trebuchet MS;
   margin: 0;
@@ -8,8 +5,6 @@ body{
 header{
   width: 100%;
   height: 7vh;
-  /*use below for opacity of overlapping header route*/
-  /*background-color: rgba(0,0,0,0.25);*/
   box-shadow: 3px 3px 3px #888888;
   background-color: #F0CD4D;
   position: relative;
@@ -41,9 +36,6 @@ header{
 .navLink{
   color: #F8FED7;
   padding: 20px;
-  /*below is having the border seperator*/
-  /*border-left: 1px solid #BD541A;
-  border-right: 1px solid #BD541A;*/
 }
 a{
   text-decoration: none;
@@ -82,7 +74,7 @@ div {
 #frontPageTrack{
   width:90%;
   height: auto;
-  margin-top: 10%;
+  margin-top: 5%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 #trackInfo{
@@ -92,9 +84,18 @@ div {
   color: #C58847;
   font-weight: bolder;
 }
-#logoImg{
-  width: 300px;
-  height: 300px;
+.movieInfo{
+  float: right;
+  margin: 5% 0 0 5%;
+}
+.movieInfo img{
+  width: 100px;
+  height: 150px;
+  float: left;
+  margin-right: 10px;
+}
+#rating{
+  margin: 0;
 }
 #rightDiv{
   width: 50%;
@@ -122,8 +123,6 @@ div {
   position: relative;
   color: #C58847;
 }
-
-
 footer{
   width: 100%;
   height: 7vh;
